@@ -10,7 +10,7 @@ dano_sec=int(input("напиши секунды прошедшие с начал
 
 final_hour = dano_sec // 3600
 final_min = dano_sec % 3600 //60
-final_sec = dano_sec % 3600 % 60 
+final_sec = dano_sec % 60 
 
 print()
 print(f"время:\n часов: {final_hour}\n минут: {final_min}\nсекунд: {final_sec}")
