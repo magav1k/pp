@@ -1,4 +1,6 @@
 *
 !.gitignore
+!Lessons/
+!Lessons/**
 !Mycode/
 !Mycode/**
