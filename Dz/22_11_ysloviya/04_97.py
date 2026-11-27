@@ -12,6 +12,7 @@ if num1>num2 and num1>num3:
     elif num2<num3:
         litl_num =num2
         medium_num=num3
+        
 if num2>num1 and num2>num3:
     big_num=num2
     if num1>num3:
@@ -19,7 +20,8 @@ if num2>num1 and num2>num3:
         medium_num=num1
     elif num1<num3:
         litl_num =num1
-        medium_num=num3           
+        medium_num=num3    
+
 if num3>num2 and num3>num1:
     big_num=num3
     if num2>num1:
@@ -28,5 +30,4 @@ if num3>num2 and num3>num1:
     elif num2<num1:
         litl_num =num2
         medium_num=num1
-
 print(f"самое большое: {big_num} самое маленькое: {litl_num} среднее: {medium_num}")
